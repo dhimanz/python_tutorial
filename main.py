@@ -1,3 +1,8 @@
-name='lek'
-message = f'hi {name}'
-print(message)
+# Recursion
+# def sum(num):
+#     if len(num) == 1:
+#         return num[0];
+#     else:
+#         return num[0]+sum(num[1:])
+#
+# print(sum([1,3]))                 [sum of list]
