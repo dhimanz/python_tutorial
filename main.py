@@ -12,4 +12,34 @@
 #         return converted[n]
 #     else:
 #         return to_string(n//base,base)+converted[n%base]
-# print(to_string(2835,16))         [decimal to hexadecimal
+# print(to_string(2835,16))         [decimal to hexadecimal]
+# def list_sum(data):
+#     total = 0
+#     for element in data:
+#         if type(element) == type([]):
+#             total +=list_sum(element)
+#         else:
+#             total+=element
+#     return total
+# print(list_sum([1,2,[3,4],[5,6]]))            [sum of nested list]
+# def factorial(n):
+#     if n==0:
+#         return 1
+#     else:
+#         return n*factorial(n-1)
+# print(factorial(5))                           [factorial]
+# def fibo(n):
+#     if n == 2 or n == 1:
+#         return 1
+#     else:
+#         return fibo(n-1)+fibo(n-2)
+# print(fibo(10))                               [[fibonacci]
+# def sod(n):
+#     if n==0:
+#         return 0
+#     else:
+#         return n%10+sod(n//10)
+# print(sod(345))                       [sum of digit]
+def sum_series(n):
+    if n<1:
+        
