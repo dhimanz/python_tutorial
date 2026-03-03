@@ -46,3 +46,13 @@
 #     else:
 #         return n+sum_series(n-2)
 # print(sum_series(5))              [sum of series]
+# def pwr(a,b):
+#     if b==0:
+#         return 1
+#     elif a==0:
+#         return 0
+#     elif b==1:
+#         return a
+#     else:
+#         return a*pwr(a,b-1)
+# print(pwr(3,4))                   [power base]
