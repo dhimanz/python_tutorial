@@ -40,6 +40,9 @@
 #     else:
 #         return n%10+sod(n//10)
 # print(sod(345))                       [sum of digit]
-def sum_series(n):
-    if n<1:
-        
+# def sum_series(n):
+#     if n<1:
+#         return 0
+#     else:
+#         return n+sum_series(n-2)
+# print(sum_series(5))              [sum of series]
