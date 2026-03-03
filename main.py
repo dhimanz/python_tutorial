@@ -56,3 +56,8 @@
 #     else:
 #         return a*pwr(a,b-1)
 # print(pwr(3,4))                   [power base]
+
+# Class
+# import array
+# for name in array.__dict__:
+#     print(name)                   [import build in array]
