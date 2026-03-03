@@ -61,3 +61,7 @@
 # import array
 # for name in array.__dict__:
 #     print(name)                   [import build in array]
+# def student(student_id,student_name,student_class):
+#     return f'Student ID:{student_id}\nStudent Name:{student_name}\nStudent Class:{student_class}'
+# print(student('S111','john conner','VI'))
+#                                        [using fun attributtes display the names of all arguments]
