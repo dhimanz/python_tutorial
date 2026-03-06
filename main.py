@@ -65,3 +65,9 @@
 #     return f'Student ID:{student_id}\nStudent Name:{student_name}\nStudent Class:{student_class}'
 # print(student('S111','john conner','VI'))
 #                                        [using fun attributtes display the names of all arguments]
+# try:
+#     print(10/2)
+# except:
+#     print("Error")
+# finally:
+#     print("Program finished")                 [try,except,finally]
